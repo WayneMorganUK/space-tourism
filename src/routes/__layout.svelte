@@ -5,7 +5,12 @@
 
 <svelte:head>
 	<meta charset="UTF-8" />
+	<meta name="description" content="Space Tourism website built using sveltekit. Based on Scrimba tutorial">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+
+	<html lang="en"/>
 
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
 	<!-- Google fonts -->
