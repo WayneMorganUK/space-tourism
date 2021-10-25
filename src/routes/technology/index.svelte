@@ -36,7 +36,7 @@
 			>{/each}
 		</div>
 		{#key activeTabValue}
-		<article in:fade="{{delay:420,duration:600}}" out:fade="{{duration:400}}" class="destination-info flow" >
+		<article in:fade="{{delay:600,duration:1000}}" out:fade="{{duration:400}}" class="destination-info flow" >
 			<h2 class="fs-600 uppercase ff-serif">{technology[activeTabValue].name}</h2>
 			<p>{technology[activeTabValue].description}</p>
 		</article>

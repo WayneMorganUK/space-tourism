@@ -39,7 +39,7 @@
 		</article>
 		{/key}
 		{#key activeTabValue}
-		<picture in:fade="{{delay:420,duration:600}}" out:fade="{{duration:400}}" id="crew-image">
+		<picture in:fade="{{delay:600,duration:1000}}" out:fade="{{duration:400}}" id="crew-image">
 			<source srcset={crew[activeTabValue].images.webp} type="image/webp" />
 			<img src={crew[activeTabValue].images.png} alt={crew[activeTabValue].name} />
 		</picture>

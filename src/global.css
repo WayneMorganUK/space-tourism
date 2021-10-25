@@ -149,6 +149,7 @@ body, section {
     background-color: hsl( var(--clr-dark) );
     line-height: 1.5;
     min-height: 100vh;
+    scrollbar-gutter: stable;
     
     display: grid;
     grid-template-rows: min-content 1fr;
@@ -379,7 +380,7 @@ select {
         transition: transform 500ms ease-in-out;
     }
     
-    .primary-navigation[data-visible="true"] {
+    .primary-navigation.data-visible {
         transform: translateX(0);
     }
     
@@ -712,7 +713,7 @@ body, section {
     }
     
     .grid-container--crew {
-        grid-template-columns: minmax(1rem, 1fr) minmax(0, 37rem) minmax(0, 23rem) minmax(1rem, 1fr);
+        grid-template-columns: minmax(1rem, 1fr) minmax(0, 40rem) minmax(0, 20rem) minmax(1rem, 1fr);
         justify-items: start;
         grid-template-areas: 
             '. title title .'
